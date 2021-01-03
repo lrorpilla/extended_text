@@ -18,7 +18,9 @@ import 'extended_text_selection_pointer_handler.dart';
 
 class ExtendedTextSelection extends StatefulWidget {
   const ExtendedTextSelection(
-      {this.onTap,
+      {
+        this.onTap,
+        this.onTapUp,
       this.softWrap,
       this.locale,
       this.textDirection,
@@ -57,6 +59,7 @@ class ExtendedTextSelection extends StatefulWidget {
   final TextWidthBasis textWidthBasis;
 
   final GestureTapCallback onTap;
+  final GestureTapUpCallback onTapUp;
 
   /// How the text should be aligned horizontally.
   final TextAlign textAlign;
@@ -165,6 +168,7 @@ class ExtendedTextSelectionState extends State<ExtendedTextSelection>
       hideToolbar: hideToolbar,
       showToolbar: showToolbar,
       onTap: widget.onTap,
+      onTapUp: widget.onTapUp,
       context: context,
       requestKeyboard: requestKeyboard,
     );
