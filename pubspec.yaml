@@ -11,7 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  extended_text_library: ^4.0.3
+  extended_text_library:
+    git:
+      url: https://github.com/emvaized/extended_text_library
+      ref: master
 
 dev_dependencies:
   flutter_test:
