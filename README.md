@@ -204,6 +204,7 @@ class MyExtendedMaterialTextSelectionControls
     Offset selectionMidpoint,
     List<TextSelectionPoint> endpoints,
     TextSelectionDelegate delegate,
+    Offset lastSecondaryTapDownPosition,
   ) {}
 
   @override

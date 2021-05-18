@@ -47,8 +47,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "3f3acf2d1070e2dcfc58e7bc1b097ebf1c30b3da"
-      resolved-ref: "3f3acf2d1070e2dcfc58e7bc1b097ebf1c30b3da"
+      ref: b42ac465371792e9ee9a7d0c873dc11cd60ca17a
+      resolved-ref: b42ac465371792e9ee9a7d0c873dc11cd60ca17a
       url: "https://github.com/lrorpilla/extended_text_library"
     source: git
     version: "4.0.3"
