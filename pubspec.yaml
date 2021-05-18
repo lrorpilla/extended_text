@@ -14,7 +14,7 @@ dependencies:
   extended_text_library:
     git:
       url: https://github.com/lrorpilla/extended_text_library
-      ref: master
+      ref: 3f3acf2d1070e2dcfc58e7bc1b097ebf1c30b3da
 
 dev_dependencies:
   flutter_test:
